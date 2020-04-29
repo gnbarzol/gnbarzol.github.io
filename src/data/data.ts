@@ -55,14 +55,14 @@ const Resume: IResume = {
         name: "Gary Barzola",
         avatar: "../assets/images/avatar.jpg",
         location: "Ecuador, Guayaquil",
-        description: "Estudiante de Ing. en Ciencias Computacionales, con conocimientos en varias herramientas de desarrollo como Python - Java - Mysql - Mongodb - HTML + CSS - JavaScript - React - Node - Express entre otras. Actualmente aprovecho mi tiempo libre en adquirir mas conocimientos en estas areas de mi interes.",
+        description: "Estudiante de Ing. en Ciencias Computacionales, con conocimientos intermedia en varias herramientas de desarrollo entre ellas: Mongodb - HTML + CSS - JavaScript - React - Node - Express entre otras. Actualmente aprovecho mi tiempo libre en adquirir mas conocimientos en estas areas de mi interes.",
         position: "Motivado a seguir aprendiendo"
     },
     experience: [
         {
             title: 'Mantenimiento de equipos',
             company: 'Lab-Fiec',
-            logo: '',
+            logo: './images/fiec.png',
             duration: '2019 -  2020',
             location: 'Espol',
             description: [
@@ -72,9 +72,9 @@ const Resume: IResume = {
         }
     ],
     education: [
-        { name: 'ESPOL', logo: './images/udg.png', title: 'Ing. en Ciencias Computacionales', duration: '2016 - Actual' },
-        { name: 'ANAI', logo: 'https://cdn.svgporn.com/logos/aws.svg', title: 'Ingenieria', duration: '2010 - 2016'},
-        { name: 'Platzi', logo: './images/jsnation.svg', title: 'Estudiante de Platzi continuo', duration: '2019 - Actual' },
+        { name: 'ESPOL', logo: './images/espol_logo.png', title: 'Ing. en Ciencias Computacionales', duration: '2016 - Actual' },
+        { name: 'ANAI', logo: './images/anai.png', title: 'Ingenieria en Ciencias Matematicas', duration: '2010 - 2016'},
+        { name: 'Platzi', logo: './images/platzi.webp', title: 'Estudiante de Platzi', duration: '2019 - Actual' },
     ],
     skills: [
         { name: 'Javascript', icon: 'https://cdn.svgporn.com/logos/javascript.svg' },
@@ -85,10 +85,10 @@ const Resume: IResume = {
         { name: 'CSS3', icon: 'https://cdn.svgporn.com/logos/css-3.svg', current: true },
         { name: 'Java', icon: 'https://cdn.svgporn.com/logos/java.svg' },
         { name: 'Sass', icon: 'https://cdn.svgporn.com/logos/sass.svg', current: true },
-        { name: 'Mongodb', icon: 'https://github.com/gnbarzol/CV/blob/master/src/assets/images/mongodb.png', current: true },
-        { name: 'Mysql', icon: './assets/images/mysql.png' },
-        { name: 'Python', icon: './assets/images/python.png' },
-        { name: 'Express', icon: '../assets/images/express.svg', current: true },
+        { name: 'Mongodb', icon: './images/mongodb.png', current: true },
+        { name: 'Mysql', icon: './images/mysql.png' },
+        { name: 'Python', icon: './images/python.png' },
+        { name: 'Express', icon: './images/express.svg', current: true },
 
     ],
     languages: [
