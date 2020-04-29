@@ -85,7 +85,7 @@ const Resume: IResume = {
         { name: 'CSS3', icon: 'https://cdn.svgporn.com/logos/css-3.svg', current: true },
         { name: 'Java', icon: 'https://cdn.svgporn.com/logos/java.svg' },
         { name: 'Sass', icon: 'https://cdn.svgporn.com/logos/sass.svg', current: true },
-        { name: 'Mongodb', icon: '../assets/images/mongodb.png', current: true },
+        { name: 'Mongodb', icon: 'https://github.com/gnbarzol/CV/blob/master/src/assets/images/mongodb.png', current: true },
         { name: 'Mysql', icon: './assets/images/mysql.png' },
         { name: 'Python', icon: './assets/images/python.png' },
         { name: 'Express', icon: '../assets/images/express.svg', current: true },
