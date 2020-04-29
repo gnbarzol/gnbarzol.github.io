@@ -55,7 +55,7 @@ const Resume: IResume = {
         name: "Gary Barzola",
         avatar: "../assets/images/avatar.jpg",
         location: "Ecuador, Guayaquil",
-        description: "Estudiante de Ing. en Ciencias Computacionales, con conocimientos intermedia en varias herramientas de desarrollo entre ellas: Mongodb - HTML + CSS - JavaScript - React - Node - Express entre otras. Actualmente aprovecho mi tiempo libre en adquirir mas conocimientos en estas areas de mi interes.",
+        description: "Estudiante de Ing. en Ciencias Computacionales, con conocimientos intermedios en varias herramientas de desarrollo entre ellas: Mongodb - HTML + CSS - JavaScript - React - Node - Express entre otras. Actualmente me gusta aprovechar mi tiempo libre en adquirir más conocimientos en estas areas de mi interes.",
         position: "Motivado a seguir aprendiendo"
     },
     experience: [
@@ -73,8 +73,9 @@ const Resume: IResume = {
     ],
     education: [
         { name: 'ESPOL', logo: './images/espol_logo.png', title: 'Ing. en Ciencias Computacionales', duration: '2016 - Actual' },
-        { name: 'ANAI', logo: './images/anai.png', title: 'Ingenieria en Ciencias Matematicas', duration: '2010 - 2016'},
         { name: 'Platzi', logo: './images/platzi.webp', title: 'Estudiante de Platzi', duration: '2019 - Actual' },
+        { name: 'ANAI', logo: './images/anai.png', title: 'Ingenieria en Ciencias Matematicas', duration: '2010 - 2016'},
+        
     ],
     skills: [
         { name: 'Javascript', icon: 'https://cdn.svgporn.com/logos/javascript.svg' },
@@ -93,7 +94,7 @@ const Resume: IResume = {
     ],
     languages: [
         {
-            name: 'Ingles',
+            name: 'Inglés',
             level: 'Intermedio'
         },
         {

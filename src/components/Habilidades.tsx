@@ -14,7 +14,7 @@ const Habilidades = ({ data, title }: SkillsProps) => {
             <article className="Skills">
                 {data.map((skill, index) => (
                     <div className="Skills-skill" key={`skill_${index}`} >
-                        <img src={skill.icon} />
+                        <img src={skill.icon} alt="iconSkill" />
                         <span>{skill.name}</span>
                     </div>
                 ))}

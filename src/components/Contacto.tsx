@@ -14,7 +14,7 @@ const Contacto = ({ data }: ContactsProps) => {
                 {
                     data.map((contact, index) => (
                         <div className="Contact-type" key={`skill_${index}`} >
-                            <img src={contact.icon} />
+                            <img src={contact.icon} alt="iconContact" />
                             <a href={contact.link} target="_blank">{contact.name}</a>
                         </div>
                     ))

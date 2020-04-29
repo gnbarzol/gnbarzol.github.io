@@ -9,7 +9,7 @@ interface LanguagesProps {
 const Lenguaje = ({ data }: LanguagesProps) => {
     return (
         <>
-            <h3>Lenguajes</h3>
+            <h3>Idiomas</h3>
             <article className="Languages">
                 {
                     data.map((language, index) => (

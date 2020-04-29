@@ -8,9 +8,6 @@ import Lenguaje from './Lenguaje';
 import Contacto from './Contacto';
 import Experiencia from './Experiencia';
 
-
-
-
 const App = () => (
   <section className="Resume">
     <div>
@@ -28,11 +25,11 @@ const App = () => (
     <section className="Resume-content">
       <section className="Resume-main">
         <Educacion data={data.education} />
-        <Habilidades data={data.skills.filter(skill => !skill.current)} title="He usado" />
+        <Habilidades data={data.skills.filter(skill => !skill.current)} title="Conocimientos" />
         <Experiencia data={data.experience} />
       </section>
       <section className="Resume-sidebar">
-        <Habilidades data={data.skills.filter(skill => skill.current)} title="Aprendizaje Actual" />
+        <Habilidades data={data.skills.filter(skill => skill.current)} title="Intereses" />
         <Lenguaje data={data.languages} />
         <Contacto data={data.contact} />
       </section>
