@@ -66,8 +66,8 @@ const Resume: IResume = {
             duration: '2019 -  2020',
             location: 'Espol',
             description: [
-                'Mantenimiento fisico preventivo.',
-                'Instalacion de S.0. y software de terceros.',
+                'Mantenimiento físico preventivo.',
+                'Instalación de S.0. y software de terceros.',
             ],
         }
     ],
