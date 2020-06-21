@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Acceder al CV
+
+Link: https://gnbarzol.github.io/CV/
+
 ## Available Scripts
 
 In the project directory, you can run:
